@@ -80,3 +80,12 @@ a:hover {
   background-color: var(--gryphon-gold);
 }
 
+section {
+  margin-bottom: 3rem;
+}
+
+.goals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
